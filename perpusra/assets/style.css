@@ -1,0 +1,140 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+body {
+ background: azure;
+ margin: 0;
+ font-family: 'Open Sans', sans-serif;
+}
+hr {
+ border: 0;
+ background: #dedede;
+ height: 1px;
+}
+header {
+ color: #ffe799;
+ float: right;
+ width: 100%;
+ background-color: yellow;
+}
+header .judul {
+align: right;
+ font-size: 17pt;
+ padding: 10px;
+}
+header .logo {
+ float: left;
+ padding: 40px;
+}
+
+.wrap {
+ width: 950px;
+ margin: auto;
+ background-color: #fff;
+}
+nav.menu ul {  
+ overflow: hidden;
+ color: #fff;
+ list-style: none;
+ float: left;
+ padding: 0;
+ width: 100%;
+ margin: 0 0 0;
+ background: #ffd901;
+ -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+ -moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+ box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+}
+
+nav.menu li {
+    float: inherit ;
+    margin-left: 10px;
+    padding-right: 0px;
+    display: grid;
+}
+nav.menu li a{
+    float: right ;
+   color: black;
+   margin-right: 5px;
+   padding: 10px;
+   text-decoration: none;
+}
+nav.menu ul a:hover {
+ text-decoration: underline;
+ background: #e0bf00;
+}
+}
+.content .descriptions{
+ width: 600px;
+ padding: 0 25px 25px 25px;
+ margin: 25px auto;
+ background-color: rgb(255, 237, 176);
+ border: 100px solid #dedede;
+
+}
+.content img {
+ width: 700px;
+ margin: auto;
+ float: middle;
+}
+.content h1{
+ padding: 0;
+ margin: 0 0 15px;
+ font-weight: normal;
+ color: black;
+ font-family: Georgia;
+}
+
+}
+.wrap.footer {
+    color: #ffe799;
+    float: right;
+    width: 100%;
+    background-color: yellow;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .header {
+    position: inherit;
+    }
+    .wrap {
+    width: 90%;
+    margin: 25px;
+    }
+  
+    nav.menu ul {
+    width: 100%;
+    }
+    nav.menu ul {
+    float: inherit;
+    }
+    nav.menu ul li {
+    float: inherit;
+    margin: 0;
+    }
+    nav.menu ul a {
+    padding: 15px;
+    font-size: 16px;
+    border-top: 1px solid #c4b000;
+    border-bottom: 1px solid #c4b000;
+    }
+     .content {
+    float: inherit;
+    margin: 0 auto 25px;
+    width: 100%;
+    border: 1px solid #dedede;
+    padding: auto;
+    }
+    .content img {
+ 
+    float: inherit;
+    margin: inherit;
+    width: 100%;
+    }
+
+    }
+    .wrap.footer {
+    position: inherit;
+    }
+}
